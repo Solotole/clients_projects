@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Creative writing"> 
+        <meta name="keywords" content="Artcle, Writing, Creative">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../static/styles/common.css">
+        <title>Welcome</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <h5>logo</h5>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('about.about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact.contact') }}">Contact Us</a></li>
+                    <li><a href="{{ url_for('services.services') }}">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Home</h1>
+    </body>
+</html>

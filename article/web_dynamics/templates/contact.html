@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Creative writing"> 
+        <meta name="keywords" content="Artcle, Writing, Creative">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../static/styles/common.css">
+        <link rel="stylesheet" href="./../static/styles/contact.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <h5>logo</h5>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('about.about') }}">About</a></li>
+                    <li><a href="{{ url_for('services.services') }}">Services</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="grey">Contact Us</h1>
+        <hr>
+        <div class="right">
+            <h2 class="grey">Telephone</h2>
+            <div class="right-contact">
+                <h4 class="none">Tel. <span>0757287162</span></h4>
+                <h4>Mob. <span>0786919719</span></h4>
+            </div>
+            <hr>
+            <h2 class="grey">Email</h2>
+            <div class="right-contact">
+                <h4 class="none">Email. <span id="link">article.writters@gmail.com</span></h4>
+            </div>
+        </div>
+    </body>
+</html>

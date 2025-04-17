@@ -1,0 +1,20 @@
+.grey {
+    color: grey;
+}
+
+div.right, div.right-contact {
+    padding: 2px 20px;
+}
+span {
+    margin-left: 10px;
+}
+
+.none {
+    margin: 0;
+}
+
+.link:hover {
+    text-decoration: solid;
+    color: grey;
+    cursor: pointer;
+}

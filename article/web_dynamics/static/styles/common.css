@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    padding: 0px 100px;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline;
+    border: transparent solid 20px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a:link {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+.header {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 3px solid whitesmoke;
+    background-color: hsl(180, 20%, 50%);
+    /* hsl(240, 100%, 90%); */
+}
+
+nav {
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
